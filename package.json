@@ -1,0 +1,34 @@
+{
+  "name": "MonitorRemoto",
+  "version": "2.0.0",
+  "description": "FrontEnd del Proyecto",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inframazing/MonitorRemoto.git"
+  },
+  "keywords": [
+    "remote"
+  ],
+  "author": "Tinny",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/inframazing/MonitorRemoto/issues"
+  },
+  "homepage": "https://github.com/inframazing/MonitorRemoto#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "client-sessions": "^0.7.0",
+    "csurf": "^1.8.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.7",
+    "socket.io": "^1.4.5"
+  }
+}
+
